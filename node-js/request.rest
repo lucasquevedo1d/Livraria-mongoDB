@@ -1,0 +1,81 @@
+
+
+#### Endpoint de livros -----------------------
+
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+    "title": "Lucas Quevedo2",
+    "author":"mano menezes",
+    "year":1993,
+    "publishCompany":"Ufpel"
+}
+###
+
+PUT http://localhost:3000/book/641c63d8f2b814cebf5884cd
+Content-Type: application/json
+
+{
+    "author":"641c85450baea90ec063e718"
+}
+
+###
+GET http://localhost:3000/book/6419f2193505580a5eb85f1e
+Content-Type: application/json
+
+
+
+###
+DELETE http://localhost:3000/book/641c66482096dd220fc88a62
+Content-Type: application/json
+
+###
+GET http://localhost:3000/book
+Content-Type: application/json
+
+
+
+
+
+
+
+#### Endpoint de autores -----------------------
+
+
+
+POST http://localhost:3000/author
+Content-Type: application/json
+
+{
+    "name": "Lucas Quevedo6",
+    "nationality":"Portuguesa"
+}
+
+###
+
+PUT http://localhost:3000/author/641c6bc67195e2a8c8684a99
+Content-Type: application/json
+
+{
+    "name": "Sapiens"
+}
+
+###
+GET http://localhost:3000/author/641c6bc67195e2a8c8684a99
+Content-Type: application/json
+
+
+
+###
+DELETE http://localhost:3000/author/641c6bc67195e2a8c8684a99
+Content-Type: application/json
+
+###
+GET http://localhost:3000/author
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/
+Content-Type: application/json
